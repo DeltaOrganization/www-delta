@@ -1,2 +1,67 @@
 @import '../../styles/globalStyles.css';
 
+/* CENTER LOGO */
+
+#icon-center {
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+#delta-name {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50.1446px;
+    line-height: 63px;
+    color: var(--purple);
+    text-align: center;
+    margin-top: 10px;
+}
+
+#delta-lema {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35.7298px;
+    line-height: 45px;
+    color: var(--grey);
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 5vh;
+}
+
+/* LINKS */
+
+.links-section {
+    background-color: #282a36;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-links {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 56px;
+    color: var(--grey);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#title-links:hover {
+    color: var(--cyan);
+    transition: all .3s linear;
+}
+
+#paper-icon {
+    margin-top: 5vh;
+}
+
+#floopydisk-icon {
+    margin-left: 24px;
+}
