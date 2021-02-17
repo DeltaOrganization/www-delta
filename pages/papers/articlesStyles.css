@@ -1,0 +1,50 @@
+@import '../../styles/globalStyles.css';
+
+/* POST STYLE */
+.post {
+    width: 720px;
+    margin: auto;
+    margin-bottom: 5vh;
+}
+
+#title-post {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    color: var(--green);
+
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+
+    transition: all .3s;
+}
+
+#title-post:hover {
+    margin-left: 1vw;
+}
+
+span#description-post {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    
+    color: var(--foreground);
+}
+
+@media (max-width: 640px) {
+    .post {
+        width: 300px;
+    }
+    #title-post {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    span#description-post {
+        font-size: 15px;
+        line-height: 16px;
+    }
+}
