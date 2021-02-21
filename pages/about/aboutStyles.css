@@ -1,0 +1,72 @@
+@import '../../styles/globalStyles.css';
+
+/* PROFILES LEFT STYLES */
+.container-left-profile {
+    background-color: var(--line);
+}
+
+.profile-left {
+    display: flex;
+    width: 1500px;
+    height: 1;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#presto-icon {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border: var(--green) 1px solid;
+}
+
+.profile-left-description {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: var(--foreground);
+
+    margin: auto;
+    margin-left: 2vw;
+    
+}
+
+/* PROFILES RIGHT STYLES */
+.container-right-profile {
+    width: 100%;
+    background-color: var(--background);
+    padding: 5px 0 10px 0;
+}
+
+.profile-right {
+    display: flex;
+    width: 1500px;
+    height: 1;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    
+}
+
+#presto-icon {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border: var(--green) 1px solid;
+}
+
+.profile-right-description {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: var(--foreground);
+    text-align: right;
+
+    margin: auto;
+    margin-right: 2vw;
+    
+}
